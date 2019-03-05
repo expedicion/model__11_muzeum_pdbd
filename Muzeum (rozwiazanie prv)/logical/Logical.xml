@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="91467CB8-C0A0-E20C-FBE9-4DFCC2839672" mainViewID="63479963-9637-12D1-F2AE-B1218B516F87">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 15:07:16 UTC</createdTime>
+<ownerDesignName>Muzeum (rozwiazanie prv)</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Muzeum (rozwiazanie prv)" id="9A8C6BE8-A52E-D153-D5AB-2B7190833E30" version="3.5">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 15:07:16 UTC</createdTime>
+<ownerDesignName>Muzeum (rozwiazanie prv)</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9A8C6BE8-A52E-D153-D5AB-2B7190833E30</designId>
+</OSDM_Design>

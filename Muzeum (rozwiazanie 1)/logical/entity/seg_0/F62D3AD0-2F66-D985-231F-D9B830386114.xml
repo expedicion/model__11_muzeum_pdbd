@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F62D3AD0-2F66-D985-231F-D9B830386114" name="CECHA_PRZEDMIOTU">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 15:28:15 UTC</createdTime>
+<ownerDesignName>Muzeum (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="AD7F3BFF-BB38-6F52-0B76-50F2338DF3EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NR_KATALOGOWY" id="15F58F50-53F1-E071-E334-4506D7B621A4">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 15:29:11 UTC</createdTime>
+<generatorID>4923486A-DB01-6E3D-07CA-7F79894A1459</generatorID>
+<ownerDesignName>Muzeum (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="AD7F3BFF-BB38-6F52-0B76-50F2338DF3EB" value="true"/>
+</engineerTo>
+<referedAttribute>71B7710A-6387-B945-0E34-215084067282</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WARTOSC" id="EB1D50F1-2308-D2F8-AC64-445453D8466B">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 15:29:38 UTC</createdTime>
+<ownerDesignName>Muzeum (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="AD7F3BFF-BB38-6F52-0B76-50F2338DF3EB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA_CECHY" id="BE41A517-EB47-311D-9C18-DCC9CC528EBE">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 15:33:14 UTC</createdTime>
+<generatorID>35D41F60-15FF-E19C-BED3-5F2AF5E00CEB</generatorID>
+<ownerDesignName>Muzeum (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="AD7F3BFF-BB38-6F52-0B76-50F2338DF3EB" value="true"/>
+</engineerTo>
+<referedAttribute>1006B2C4-7384-C7F1-9CF8-29AD4342C5A9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2590B0E2-8FA7-87B5-D532-6CB787C66F73" name="CECHA_PRZEDMIOTU PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 15:29:11 UTC</createdTime>
+<ownerDesignName>Muzeum (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="AD7F3BFF-BB38-6F52-0B76-50F2338DF3EB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15F58F50-53F1-E071-E334-4506D7B621A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

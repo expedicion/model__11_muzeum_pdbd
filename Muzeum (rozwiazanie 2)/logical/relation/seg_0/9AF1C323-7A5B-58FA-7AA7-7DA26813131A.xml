@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="9AF1C323-7A5B-58FA-7AA7-7DA26813131A">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 15:54:01 UTC</createdTime>
+<ownerDesignName>Muzeum (rozwiazanie 2)</ownerDesignName>
+<engineerTo>
+<item key="F79A605C-3E87-2CF7-9E94-A71F8945F86E" value="true"/>
+</engineerTo>
+<sourcePk>F87FF8E6-84ED-2868-706C-3816C776FB94</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>73FE8269-D099-EFC9-9778-5D00896F2406</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4055D200-D382-57DA-F2DC-B0799D62D222</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

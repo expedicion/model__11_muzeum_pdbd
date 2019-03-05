@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="63479963-9637-12D1-F2AE-B1218B516F87">
+<createdBy>Użytkownik WEiTI</createdBy>
+<modifiedBy>Użytkownik WEiTI</modifiedBy>
+<createdTime>2018-11-24 15:08:06 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="383A3F26-4691-033A-B6B7-AFAB92E9C725" otype="Entity" vid="41369B7C-1FE2-2AC7-9C0A-C62E9AF1C001">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="742" y="93" width="173" height="170"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="7EDA8554-772A-212E-2567-5FE2EF1778B7" otype="Note" vid="28A2FE64-E916-6FC3-1160-64CE88116E08">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1041" y="104" width="319" height="252"/>
+<comment>Zadanie 6. Muzeum&lt;br/&gt;Kierownik muzeum tworzy bazę danych opisującą&lt;br/&gt;przedmioty ruchome zgromadzone w muzeum. Każdy&lt;br/&gt;przedmiot ma numer katalogowy oraz nazwę i opis,&lt;br/&gt;niektóre mają także autora. Przedmioty podzielone są&lt;br/&gt;na rodzaje, a w zależności od rodzaju mają pewne&lt;br/&gt;cechy, które powinny być opisane (np. dla obrazu&lt;br/&gt;będzie to rodzaj podobrazia czy rodzaj farby, zaś dla&lt;br/&gt;rzeźby - materiał z której jest wykonana). Przedmiot&lt;br/&gt;może być datowany, ale - w zależności od dostępnej&lt;br/&gt;wiedzy - może być podana dokładna data, tylko&lt;br/&gt;miesiąc i rok, sam rok, dekada, ćwiartka lub połowa&lt;br/&gt;stulecia, lub jedynie stulecie</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C1C81F09-A55C-C796-84D5-B178842B1B75" otype="Entity" vid="7E08F491-F2DE-0403-78DC-DE75624E2177">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="464" y="96" width="170" height="166"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="DB481450-140D-F9A3-E3D9-844B79547AF9" otype="Entity" vid="7BA8186D-1AC1-8B15-26BE-0120CD28FF24">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="267" y="131" width="125" height="66"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="DBAB4AA7-1FA2-EF54-8ED6-A623B2510F64" otype="Entity" vid="859D83B5-E1DD-80BC-5AE2-806194542E1B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="33" y="86" width="173" height="159"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="5FE4AD7A-5101-5229-480A-7D3E9A09ED6E" otype="Relation" vid_source="7E08F491-F2DE-0403-78DC-DE75624E2177" vid_target="41369B7C-1FE2-2AC7-9C0A-C62E9AF1C001">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="634" y="189"/>
+<point x="742" y="189"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="6D467BF8-09C0-16F1-0173-4F86B857C233" otype="Relation" vid_source="7E08F491-F2DE-0403-78DC-DE75624E2177" vid_target="7BA8186D-1AC1-8B15-26BE-0120CD28FF24">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="464" y="164"/>
+<point x="392" y="164"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="DE5636D5-3555-860F-DDB1-55C2D88AE4D9" otype="Relation" vid_source="859D83B5-E1DD-80BC-5AE2-806194542E1B" vid_target="7BA8186D-1AC1-8B15-26BE-0120CD28FF24">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="206" y="164"/>
+<point x="267" y="164"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Muzeum" id="51156B82-D53D-6190-9F62-169868B6FF1F" version="3.5">
+<createdBy>Dell</createdBy>
+<createdTime>2019-03-05 22:10:19 UTC</createdTime>
+<ownerDesignName>Muzeum</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>51156B82-D53D-6190-9F62-169868B6FF1F</designId>
+</OSDM_Design>
